@@ -8,7 +8,6 @@ class AddRoom extends Component {
         const form = this.renderDOM();
         const input = form.querySelector('input');
 
-        // FIXME:is this right?
         form.addEventListener('submit', event => {
             event.preventDefault();
             const roomRef = roomsRef.push();
