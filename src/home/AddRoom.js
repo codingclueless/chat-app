@@ -28,7 +28,7 @@ class AddRoom extends Component {
         return /*html*/`
             <form>
                 <input required>
-                <button>Add chat</button>
+                <button>Add chat room</button>
             </form>
         `;
     }

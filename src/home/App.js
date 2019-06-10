@@ -14,7 +14,6 @@ class App extends Component {
         const headerDOM = header.render();
         dom.prepend(headerDOM);
 
-
         const addRoom = new AddRoom();
         const addRoomDOM = addRoom.render();
         main.appendChild(addRoomDOM);
